@@ -86,3 +86,46 @@ ul {
   font-size: 90px;
   color: #376B8C;
 }
+
+.block_dress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: 100px 0;
+}
+.block_dress__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+.block_dress__a {
+  font-size: 55px;
+  color: #918F8F;
+}
+.block_dress__a:hover {
+  color: #000;
+  border-bottom: 5px solid #000;
+}
+.block_dress__a_act {
+  color: #000;
+  border-bottom: 5px solid #000;
+}
+.block_dress__blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.block_dress__img {
+  width: 100%;
+  height: 545px;
+}
+.block_dress__link {
+  margin-left: 5px;
+  border-bottom: 2px solid #000;
+}

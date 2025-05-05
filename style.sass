@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap')
 
+@mixin flexHsB
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+
+@mixin flexWsB
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
 *
     box-sizing: border-box
     margin: 0
@@ -73,4 +85,34 @@ ul
         font-size: 90px
         color: #376B8C
 
+// HEADER
+
+// HEADER
+.block_dress
+    @include flexHsB
+    gap: 25px
+    margin: 100px 0
+
+    &__ul
+        @include flexWsB
+        gap: 35px
+    &__a
+        font-size: 55px
+        color: #918F8F
+    &__a:hover
+        color: #000
+        border-bottom: 5px solid #000
+    &__a_act
+        color: #000
+        border-bottom: 5px solid #000
+
+    &__blocks
+        @include flexWsB
+        gap: 15px
+    &__img
+        width: 100%
+        height: 545px
+    &__link
+        margin-left: 5px
+        border-bottom: 2px solid #000
 // HEADER
