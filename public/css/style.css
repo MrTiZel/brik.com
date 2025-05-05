@@ -146,6 +146,61 @@ ul {
   font-size: 90px;
 }
 .block_quality__img {
+  background: url("../img/photo1.png") no-repeat center;
+  background-size: cover;
   width: 100%;
   height: 635px;
+}
+
+.block_collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+.block_collection__nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_collection__h3 {
+  font-size: 55px;
+}
+.block_collection__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.block_collection__icon {
+  width: 25px;
+  height: 25px;
+}
+.block_collection__blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.block_collection__img {
+  width: 100%;
+  height: 520px;
+}
+.block_collection__price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_collection__text {
+  font-weight: bold;
+}
+.block_collection__chapter {
+  color: #918F8F;
 }
