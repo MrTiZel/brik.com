@@ -8,144 +8,152 @@ html(lang="en")
         link(rel="stylesheet", href="css/style.css")
         title Brik.com
     body 
-        
-        header.header_main
-            .top_panel
-                a(href="#").top_panel__logo Brik
-                nav.top_panel__nav
-                    ul.top_panel__list
-                        li.top_panel__li
-                            a(href="#") Products
-                        li.top_panel__li
-                            a(href="#") Inspiration
-                        li.top_panel__li
-                            a(href="#") Search
-                .top_panel__butt_card
-                    button.top_panel__butt Join Brik Pro
-                    a.top_panel__card(href="#")
-                        img(src="./img/Vector.png", alt="Icon card")
+        .wrapper
+            header.header_main
+                .top_panel
+                    a(href="#").top_panel__logo Brik
+                    nav.top_panel__nav
+                        ul.top_panel__list
+                            li.top_panel__li
+                                a(href="#") Products
+                            li.top_panel__li
+                                a(href="#") Inspiration
+                            li.top_panel__li
+                                a(href="#") Search
+                    .top_panel__butt_card
+                        button.top_panel__butt Join Brik Pro
+                        a.top_panel__card(href="#")
+                            img(src="./img/Vector.png", alt="Icon card")
+                
+                .header_slad
+                    .header_slad__img
+                        a.header_slad__link(href="#") Shop Now
+                    .header_slad__arr
+                        a.header_slad__link_left(href="#")
+                            img(src="./img/left.png", alt="Icon arr")
+                        span.header_slad__span Garther with Brik
+                        a.header_slad__link_right(href="#")
+                            img(src="./img/right.png", alt="Icon arr")
+            section.block_dress
+                ul.block_dress__ul
+                    li.block_dress__li
+                        a(href="#", class="block_dress__a block_dress__a_act") Casual
+                    li.block_dress__li
+                        a(href="#", class="block_dress__a") Formal
+                    li.block_dress__li
+                        a(href="#", class="block_dress__a") Elegance
+                .block_dress__blocks
+                    .block_dress__block
+                        img(src="./img/dress1.png", alt="Photos dress", class="block_dress__img")
+                        p.block_dress__p Essential Woven Belts 
+                        a(href="#", class="block_dress__link") Shop Now
+                    .block_dress__block
+                        img(src="./img/dress2.png", alt="Photos dress", class="block_dress__img")
+                        p.block_dress__p Leather Belts 
+                        a(href="#", class="block_dress__link") Shop Now
+                    .block_dress__block
+                        img(src="./img/dress3.png", alt="Photos dress", class="block_dress__img")
+                        p.block_dress__p Chill Vibes Canvas Belts 
+                        a(href="#", class="block_dress__link") Shop Now
             
-            .header_slad
-                .header_slad__img
-                    a.header_slad__link(href="#") Shop Now
-                .header_slad__arr
-                    a.header_slad__link_left(href="#")
-                        img(src="./img/left.png", alt="Icon arr")
-                    span.header_slad__span Garther with Brik
-                    a.header_slad__link_right(href="#")
-                        img(src="./img/right.png", alt="Icon arr")
-        section.block_dress
-            ul.block_dress__ul
-                li.block_dress__li
-                    a(href="#", class="block_dress__a block_dress__a_act") Casual
-                li.block_dress__li
-                    a(href="#", class="block_dress__a") Formal
-                li.block_dress__li
-                    a(href="#", class="block_dress__a") Elegance
-            .block_dress__blocks
-                .block_dress__block
-                    img(src="./img/dress1.png", alt="Photos dress", class="block_dress__img")
-                    p.block_dress__p Essential Woven Belts 
-                       a(href="#", class="block_dress__link") Shop Now
-                .block_dress__block
-                    img(src="./img/dress2.png", alt="Photos dress", class="block_dress__img")
-                    p.block_dress__p Leather Belts 
-                       a(href="#", class="block_dress__link") Shop Now
-                .block_dress__block
-                    img(src="./img/dress3.png", alt="Photos dress", class="block_dress__img")
-                    p.block_dress__p Chill Vibes Canvas Belts 
-                       a(href="#", class="block_dress__link") Shop Now
-        
-        section.block_quality
-            h2.block_quality__h2 Quality and Craftsmanship
-            .block_quality__img
-        
-        section.block_collection 
-            .block_collection__nav
-                h3.block_collection__h3 Laid-Back Collection
-                ul.block_collection__ul
-                    li.block_collection__li
-                        a(href="#")
-                            img(src="./img/section_left.png", alt="Icon left" class="block_collection__icon")
-                    li.block_collection__li
-                        a(href="#")
-                            img(src="./img/section_right.png", alt="Icon left" class="block_collection__icon")
-            .block_collection__blocks
-                .block_collection__block
-                    img(src="./img/dress4.png", alt="Photos dress", class="block_collection__img")
-                    .block_collection__wrapper
-                        .block_collection__price
-                            p.block_collection__text Relaxed Fit Woven Bow
-                            p.block_collection__text $123
-                        p.block_collection__chapter breathable, adjustable
-                .block_collection__block
-                    img(src="./img/dress5.png", alt="Photos dress", class="block_collection__img")
-                    .block_collection__wrapper
-                        .block_collection__price
-                            p.block_collection__text Chill Days Canvas Socks
-                            p.block_collection__text $123
-                        p.block_collection__chapter lightweight canvas
-                .block_collection__block
-                    img(src="./img/dress6.png", alt="Photos dress", class="block_collection__img")
-                    .block_collection__wrapper
-                        .block_collection__price
-                            p.block_collection__text Easygoing Tie
-                            p.block_collection__text $123
-                        p.block_collection__chapter minimalist fabric
-        section.block_members
-            div(class="block_members__block block_members__itme1")
-                .block_members__cont1
-                    h3.block_members__h3 Everyday Classics
-                    p.block_members__p All Classics 
-                        a(href="#" class="block_members__a") Shop Now
-            div(class="block_members__block block_members__itme2")
-                .block_members__cont2
-                    h3.block_members__h3 Mix Styles
-                    p.block_members__p Mix Ideas 
-                        a(href="#" class="block_members__a") Shop Now
-            div(class="block_members__block block_members__itme3")
-                .block_members__divMemb
-                    div
-                        h3.block_members__name Be our Pro members 
-                        p.block_members__text.
-                            Join our exclusive Pro Member program and unlock a world of benefits designed for style enthusiasts and savvy shoppers.
-                    button.block_members__apply Apply for Pro
-                .block_members__divMemb
-                    ul.block_members__ul
-                        li.block_members__li
-                            b.block_members__b ✓ Members-Only Products
-                            span.block_members__span.
-                                Access limited-edition items and exclusive collections available only to Pro Members
-                        li.block_members__li
-                            b.block_members__b ✓ Early Access to Sales
-                            span.block_members__span.
-                                Get first dibs on sales and special promotions before they’re available to the public
-                        li.block_members__li
-                            b.block_members__b ✓ Exclusive Discounts
-                            span.block_members__span.
-                                Enjoy 15% off all purchases, including new arrivals and seasonal collections
-            div(class="block_members__block block_members__itme4")
-                .block_members__cont1
-                    h3.block_members__h3 The Ultimate Guide to Men's Belts: Fashion, Function, and Flair
-                    a(href="#" class="block_members__link") Read More
-            div(class="block_members__block block_members__itme5")
-                .block_members__cont2
-                    h3.block_members__h3 Accessorize Like a Pro: Belts and More for the Everyday Guy
-                    a(href="#" class="block_members__link") Read More
-        section.block_follow
-            h2.block_follow__h2 Follow us @brikconnection
-            .block_follow__items
-                .block_follow__item
-                    img(src="./img/photo6.png", alt="Photo 6" class="block_follow__img")
-                .block_follow__item
-                    img(src="./img/photo7.png", alt="Photo 7" class="block_follow__img")
-                .block_follow__item
-                    img(src="./img/photo8.png", alt="Photo 8" class="block_follow__img")
-                .block_follow__item
-                    img(src="./img/photo9.png", alt="Photo 9" class="block_follow__img")
-                .block_follow__item
-                    img(src="./img/photo10.png", alt="Photo 10" class="block_follow__img")
-        section.block_text
-            h2.block_text__h2.
-                We set out to create a space where men can find the perfect pieces to express their individuality. 
-            a(href="#", class="block_text__link") Read More About Us
+            section.block_quality
+                h2.block_quality__h2 Quality and Craftsmanship
+                .block_quality__img
+            
+            section.block_collection 
+                .block_collection__nav
+                    h3.block_collection__h3 Laid-Back Collection
+                    ul.block_collection__ul
+                        li.block_collection__li
+                            a(href="#")
+                                img(src="./img/section_left.png", alt="Icon left" class="block_collection__icon")
+                        li.block_collection__li
+                            a(href="#")
+                                img(src="./img/section_right.png", alt="Icon left" class="block_collection__icon")
+                .block_collection__blocks
+                    .block_collection__block
+                        img(src="./img/dress4.png", alt="Photos dress", class="block_collection__img")
+                        .block_collection__wrapper
+                            .block_collection__price
+                                p.block_collection__text Relaxed Fit Woven Bow
+                                p.block_collection__text $123
+                            p.block_collection__chapter breathable, adjustable
+                    .block_collection__block
+                        img(src="./img/dress5.png", alt="Photos dress", class="block_collection__img")
+                        .block_collection__wrapper
+                            .block_collection__price
+                                p.block_collection__text Chill Days Canvas Socks
+                                p.block_collection__text $123
+                            p.block_collection__chapter lightweight canvas
+                    .block_collection__block
+                        img(src="./img/dress6.png", alt="Photos dress", class="block_collection__img")
+                        .block_collection__wrapper
+                            .block_collection__price
+                                p.block_collection__text Easygoing Tie
+                                p.block_collection__text $123
+                            p.block_collection__chapter minimalist fabric
+            section.block_members
+                div(class="block_members__block block_members__itme1")
+                    .block_members__cont1
+                        h3.block_members__h3 Everyday Classics
+                        p.block_members__p All Classics 
+                            a(href="#" class="block_members__a") Shop Now
+                div(class="block_members__block block_members__itme2")
+                    .block_members__cont2
+                        h3.block_members__h3 Mix Styles
+                        p.block_members__p Mix Ideas 
+                            a(href="#" class="block_members__a") Shop Now
+                div(class="block_members__block block_members__itme3")
+                    .block_members__divMemb
+                        div
+                            h3.block_members__name Be our Pro members 
+                            p.block_members__text.
+                                Join our exclusive Pro Member program and unlock a world of benefits designed for style enthusiasts and savvy shoppers.
+                        button.block_members__apply Apply for Pro
+                    .block_members__divMemb
+                        ul.block_members__ul
+                            li.block_members__li
+                                b.block_members__b ✓ Members-Only Products
+                                span.block_members__span.
+                                    Access limited-edition items and exclusive collections available only to Pro Members
+                            li.block_members__li
+                                b.block_members__b ✓ Early Access to Sales
+                                span.block_members__span.
+                                    Get first dibs on sales and special promotions before they’re available to the public
+                            li.block_members__li
+                                b.block_members__b ✓ Exclusive Discounts
+                                span.block_members__span.
+                                    Enjoy 15% off all purchases, including new arrivals and seasonal collections
+                div(class="block_members__block block_members__itme4")
+                    .block_members__cont1
+                        h3.block_members__h3 The Ultimate Guide to Men's Belts: Fashion, Function, and Flair
+                        a(href="#" class="block_members__link") Read More
+                div(class="block_members__block block_members__itme5")
+                    .block_members__cont2
+                        h3.block_members__h3 Accessorize Like a Pro: Belts and More for the Everyday Guy
+                        a(href="#" class="block_members__link") Read More
+            section.block_follow
+                h2.block_follow__h2 Follow us @brikconnection
+                .block_follow__items
+                    .block_follow__item
+                        img(src="./img/photo6.png", alt="Photo 6" class="block_follow__img")
+                    .block_follow__item
+                        img(src="./img/photo7.png", alt="Photo 7" class="block_follow__img")
+                    .block_follow__item
+                        img(src="./img/photo8.png", alt="Photo 8" class="block_follow__img")
+                    .block_follow__item
+                        img(src="./img/photo9.png", alt="Photo 9" class="block_follow__img")
+                    .block_follow__item
+                        img(src="./img/photo10.png", alt="Photo 10" class="block_follow__img")
+            section.block_text
+                h2.block_text__h2.
+                    We set out to create a space where men can find the perfect pieces to express their individuality. 
+                a(href="#", class="block_text__link") Read More About Us
+        footer.footer_bottom
+            div(class="block_footer wrapper")
+                .block_footer__item1 1
+                .block_footer__item2 2
+                .block_footer__item3 3
+                .block_footer__item4 4
+                .block_footer__item5 5
+                .block_footer__item6 6

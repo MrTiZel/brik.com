@@ -7,9 +7,6 @@
 }
 
 body {
-  width: 1366px;
-  margin: 0 auto;
-  padding: 0 35px;
   font-family: "Afacad", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -23,6 +20,12 @@ a {
 
 ul {
   list-style: none;
+}
+
+.wrapper {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0 35px;
 }
 
 .header_main {
@@ -369,4 +372,33 @@ ul {
   font-weight: 500;
   color: #A45728;
   border-bottom: 2px solid #A45728;
+}
+
+.footer_bottom {
+  background-color: #D9D9D9;
+  height: 430px;
+}
+
+.block_footer {
+  display: grid;
+  grid-template-columns: repeat(auto);
+  grid-template-areas: "join company support account" "join company policy social";
+}
+.block_footer__item1 {
+  grid-area: join;
+}
+.block_footer__item2 {
+  grid-area: company;
+}
+.block_footer__item3 {
+  grid-area: support;
+}
+.block_footer__item4 {
+  grid-area: account;
+}
+.block_footer__item5 {
+  grid-area: policy;
+}
+.block_footer__item6 {
+  grid-area: social;
 }
