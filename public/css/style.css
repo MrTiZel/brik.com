@@ -380,12 +380,42 @@ ul {
 }
 
 .block_footer {
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "join company support account" "join company policy social";
+}
+.block_footer__block {
+  padding-top: 60px;
 }
 .block_footer__item1 {
   grid-area: join;
+  padding-right: 50px;
+}
+.block_footer__join {
+  margin-bottom: 10px;
+}
+.block_footer__inputBlock {
+  background-color: #fff;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.block_footer__input {
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #BFBFBF;
+}
+.block_footer__input:focus {
+  color: #000;
+}
+.block_footer__button {
+  background: none;
+  cursor: pointer;
 }
 .block_footer__item2 {
   grid-area: company;
@@ -401,4 +431,17 @@ ul {
 }
 .block_footer__item6 {
   grid-area: social;
+}
+.block_footer__h4 {
+  margin-bottom: 30px;
+  color: #605D5E;
+  font-size: 14px;
+}
+.block_footer__link {
+  font-size: 20px;
+  font-weight: 700;
+}
+.block_footer__link2 {
+  font-size: 14px;
+  font-weight: 700;
 }
