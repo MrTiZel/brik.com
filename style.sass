@@ -173,6 +173,7 @@ ul
     grid-template-columns: 1fr 1fr
     grid-template-areas: 'item1 item2' 'item3 item3' 'item4 item5'
     gap: 10px
+    margin-bottom: 100px
 
     &__itme1
         grid-area: item1
@@ -186,8 +187,49 @@ ul
         height: 635px
     &__itme3
         grid-area: item3
+        height: 435px
         margin: 100px 0
         background-color: #FEF6EA
+        @include flexWsB
+        padding: 30px
+    &__divMemb
+        flex: 1
+        padding-right: 120px
+    &__divMemb:first-child
+        height: 100%
+        @include flexHsB
+    &__name
+        font-size: 55px
+    &__text
+        font-size: 18px
+        font-weight: 500
+    &__apply
+        align-self: flex-start
+        padding: 15px 70px
+        background-color: #fff
+        border: 1px solid #000
+        font-size: 16px
+        font-weight: 500
+        cursor: pointer
+    &__divMemb:last-child
+        align-self: flex-end
+    &__ul
+        display: flex
+        flex-direction: column
+        gap: 20px
+        padding-right: 100px
+    &__li
+        padding-bottom: 10px
+        border-bottom: 1px solid #918F8F
+    &__li:last-child
+        padding-bottom: 0
+        border-bottom: 0
+    &__b
+        display: block
+        margin-bottom: 15px
+    &__span
+        display: block
+        color: #918F8F
     &__itme4
         grid-area: item4
         background: url("../img/photo4.png") no-repeat center
@@ -227,3 +269,33 @@ ul
         border-bottom: 1px solid #fff
         margin-left: 5px
 // BLOCK MEMBERS
+
+// BLOCK FOLLOW
+.block_follow
+    margin-bottom: 100px
+    &__h2
+        font-size: 55px
+        margin-bottom: 20px
+    &__items
+        @include flexWsB
+        gap: 10px
+    &__item
+        width: 250px
+        height: 250px
+    &__img
+        width: 100%
+// BLOCK FOLLOW
+
+// BLOCK BLOCK TEXT
+.block_text
+    margin-bottom: 65px
+    &__h2
+        font-size: 90px
+        color: #A45728
+        margin-bottom: 70px
+    &__link
+        font-size: 18px
+        font-weight: 500
+        color: #A45728
+        border-bottom: 2px solid #A45728
+// BLOCK BLOCK TEXT

@@ -210,6 +210,7 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "item1 item2" "item3 item3" "item4 item5";
   gap: 10px;
+  margin-bottom: 100px;
 }
 .block_members__itme1 {
   grid-area: item1;
@@ -225,8 +226,66 @@ ul {
 }
 .block_members__itme3 {
   grid-area: item3;
+  height: 435px;
   margin: 100px 0;
   background-color: #FEF6EA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.block_members__divMemb {
+  flex: 1;
+  padding-right: 120px;
+}
+.block_members__divMemb:first-child {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_members__name {
+  font-size: 55px;
+}
+.block_members__text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.block_members__apply {
+  align-self: flex-start;
+  padding: 15px 70px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.block_members__divMemb:last-child {
+  align-self: flex-end;
+}
+.block_members__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 100px;
+}
+.block_members__li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #918F8F;
+}
+.block_members__li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.block_members__b {
+  display: block;
+  margin-bottom: 15px;
+}
+.block_members__span {
+  display: block;
+  color: #918F8F;
 }
 .block_members__itme4 {
   grid-area: item4;
@@ -273,4 +332,41 @@ ul {
   color: #fff;
   border-bottom: 1px solid #fff;
   margin-left: 5px;
+}
+
+.block_follow {
+  margin-bottom: 100px;
+}
+.block_follow__h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.block_follow__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.block_follow__item {
+  width: 250px;
+  height: 250px;
+}
+.block_follow__img {
+  width: 100%;
+}
+
+.block_text {
+  margin-bottom: 65px;
+}
+.block_text__h2 {
+  font-size: 90px;
+  color: #A45728;
+  margin-bottom: 70px;
+}
+.block_text__link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #A45728;
+  border-bottom: 2px solid #A45728;
 }
